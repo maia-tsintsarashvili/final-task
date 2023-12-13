@@ -1,0 +1,184 @@
+
+@media all and (min-width:1024px)
+{
+    header
+    {
+       
+       /* background-image: url(images/hands.png);
+       background-repeat: no-repeat;
+       background-size: cover; */
+
+    }
+    .burger
+    {display: none;}
+    
+
+.nav-link
+{
+
+    display: inline-flex;
+align-items: flex-start;
+gap:40px;
+padding-left: 40px;
+   font-size: 1,4rem;
+font-family: kalam;
+font-weight: 700;
+line-height: 20px;
+}
+
+
+
+.text
+{
+ max-width: 565px;
+height: 99px;
+text-align: center;
+font-family: kalam;
+font-size: 2.0rem;
+padding-right: 20px;
+
+}
+
+.content
+{
+    display: grid;
+    gap: 80px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50%; 50%;
+
+}
+
+.lorem-1
+{
+    grid:column: 1/6;
+}
+
+.lorem-2
+{
+    grid-column: 6/13
+}
+
+.lorem-3
+{
+    grid- column :1 / 6 ;
+}
+
+.lorem-4
+{
+    grid-column: 6/13;
+}
+
+.lorem-5
+{
+    grid-column: 1/6
+}
+
+.lorem-6
+{
+    grid- column :6 / 13 ;
+}
+
+
+
+
+footer
+{
+    max-width: 1440px;
+height: 536px;
+}
+
+
+.bottom
+{
+    display: flex;
+    justify-content: space-around;
+  
+
+   
+}
+
+
+}
+
+
+
+
+ 
+  
+        
+   
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:1440px)
+{
+
+
+
+
+
+    .content
+{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50%; 50%;
+}
+
+.lorem-1
+{
+    grid:column: 1/4;
+}
+
+.lorem-2
+{
+    grid-column: 4/8
+}
+
+.lorem-3
+{
+    grid- column :8 /13;
+}
+
+.lorem-4
+{
+    grid-column: 1/4;
+}
+
+.lorem-5
+{
+    grid-column: 4/8
+}
+
+.lorem-6
+{
+    grid- column :8 / 13 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
